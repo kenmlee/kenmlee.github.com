@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create blog on github with jekyllbootstrap"
+title: "Host blog on github with jekyllbootstrap"
 description: ""
 category: 
 tags: []
