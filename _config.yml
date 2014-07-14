@@ -127,4 +127,7 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+ 
+# add markdown interpretor configuration for github
+# use kramdown to replace Maruku
+markdown: kramdown 
