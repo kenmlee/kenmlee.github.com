@@ -28,7 +28,7 @@ github上有两种模式，一种是用户或者组织页面，一种是项目�
 步骤如下：
 
 1. 注册github账号
-2. 创建一个仓库，名字为'\<username\>.github.com
+2. 创建一个用户仓库
 3. 设置GitHub Pages
 4. 在本机上克隆jekyll-bootstrap仓库
 5. 将本机仓库的远程设置为新创建的github仓库
