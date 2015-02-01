@@ -2,7 +2,7 @@
 layout: post
 title: "Mobile App Icon Size"
 description: ""
-category: 
+category: blog
 tags: [mobile, iOS, Andriod, icon, App, design]
 ---
 {% include JB/setup %}

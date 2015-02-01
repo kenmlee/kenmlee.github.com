@@ -2,7 +2,7 @@
 layout: post
 title: "dukto port"
 description: ""
-category: 
+category: blog
 tags: [dukto, port, iptable]
 ---
 {% include JB/setup %}

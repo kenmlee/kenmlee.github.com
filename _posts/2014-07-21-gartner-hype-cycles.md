@@ -2,7 +2,7 @@
 layout: post
 title: "Gartner Hype Cycles"
 description: ""
-category: 
+category: bookmark
 tags: [gartner, hyper cycles, magic quadrant]
 ---
 {% include JB/setup %}

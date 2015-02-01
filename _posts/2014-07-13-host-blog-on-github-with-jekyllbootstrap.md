@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Host blog on github with jekyllbootstrap"
+title: "Hosting blog on github with jekyllbootstrap"
 description: ""
-category: 
+category: blog
 tags: []
 ---
 {% include JB/setup %}
