@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 快速方便记录点点滴滴!
-tagline: Supporting tagline
 ---
 {% include JB/setup %}
 ## 未分类列表
