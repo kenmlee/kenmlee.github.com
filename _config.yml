@@ -6,7 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 #pygments: true
 highlighter: pygments
 
-# add excerpt separator
+# add excerpt separator because default separator ('\n\n') not work
 excerpt_separator: <!--more-->
 
 # Themes are encouraged to use these universal variables 
