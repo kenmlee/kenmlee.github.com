@@ -9,6 +9,8 @@ tags: [mobile, iOS, Andriod, icon, App, design]
 
 ## 常用移动设备图标尺寸
 
+<!--more-->
+
   | 设备(屏幕) | 文件名 | 尺寸(pixels) |
   | ----------- | ------- | ------------- |
   | **iPhone** |

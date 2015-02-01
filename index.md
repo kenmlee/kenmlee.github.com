@@ -4,24 +4,20 @@ title: 快速方便记录点点滴滴!
 ---
 {% include JB/setup %}
 ## 记录
-<ul class="posts">
-  {% for post in site.categories.blog %}
-    <li>
-      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.categories.blog %}
+### {{ post.date | date_to_string }}: [{{ post.title }}]({{ BASE_PATH }}{{ post.url }}) 
+
+> {{ post.excerpt | strip_html }}
+
+{% endfor %}
 
 ## 兴趣
-<ul class="posts">
-  {% for post in site.categories.bookmark %}
-    <li>
-      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.categories.bookmark %}
+### {{ post.date | date_to_string }}: [{{ post.title }}]({{ BASE_PATH }}{{ post.url }}) 
+
+> {{ post.excerpt | strip_html }}
+
+{% endfor %}
 
 ### Useful links
 

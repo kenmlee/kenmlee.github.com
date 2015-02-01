@@ -3,12 +3,13 @@ layout: post
 title: "Hosting blog on github with jekyllbootstrap"
 description: ""
 category: blog
-tags: []
+tags: [blog jekyll github]
 ---
 {% include JB/setup %}
 
 将BLOG放在github上是个不错的选择，首先这是免费的，其次所有内容都是版本化的（当然也就不能用数据库了，全是文件方式），然后还是跨平台的。前提是你得会git，当然你知道github，肯定是会git的。
 
+<!--more-->
 
 github上有两种模式，一种是用户或者组织页面，一种是项目页面。顾名思义，用户或者组织页面可以用于用户或者组织的BLOG，而项目页面最好用于某个项目的BLOG。
 
@@ -36,3 +37,4 @@ github上有两种模式，一种是用户或者组织页面，一种是项目�
 7. 本机安装jekyll和rake等
 8. 修改初始页面并推送到远端
 9. 用rake创建新的blog条目或者页面
+10. 修改 `_config.xml` 里面的参数
